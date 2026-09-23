@@ -1,0 +1,19 @@
+SEED = 42
+
+DATA_PATH = "data/cicddos2019_dataset.csv"
+
+TARGET_COLUMN = "Label"
+
+LATENT_DIM = 16
+
+BATCH_SIZE = 256
+
+EPOCHS = 50
+
+LEARNING_RATE = 0.001
+
+THRESHOLD_PERCENTILE = 95
+
+TEST_SIZE = 0.20
+
+DEVICE = "cpu"
